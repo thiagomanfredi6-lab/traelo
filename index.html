@@ -536,25 +536,25 @@
         <a href="https://wa.me/541124989454" target="_blank" class="contact-link">
           <span>💬</span> WhatsApp
         </a>
-        <a href="mailto:contacto@traeloya.com" class="contact-link">
-          <span>✉️</span> contacto@traeloya.com
+        <a href="mailto:trealoyaarg@gmail.com" class="contact-link">
+          <span>✉️</span> trealoyaarg@gmail.com
         </a>
         <a href="https://instagram.com/traeloya" target="_blank" class="contact-link">
           <span>📷</span> @traeloya
         </a>
       </div>
-      <div class="contact-form">
+      <form class="contact-form" action="https://formspree.io/f/mlgkvyvj" method="POST">
         <div class="form-row">
           <label>Tu nombre</label>
-          <input type="text" placeholder="¿Cómo te llamás?" />
+          <input type="text" name="nombre" placeholder="¿Cómo te llamás?" required />
         </div>
         <div class="form-row">
           <label>Correo electrónico</label>
-          <input type="email" placeholder="tu@email.com" />
+          <input type="email" name="email" placeholder="tu@email.com" required />
         </div>
         <div class="form-row">
           <label>¿Qué querés importar?</label>
-          <select>
+          <select name="categoria">
             <option value="">Seleccioná una categoría</option>
             <option>Tecnología y electrónica</option>
             <option>Indumentaria y textiles</option>
@@ -567,10 +567,10 @@
         </div>
         <div class="form-row">
           <label>Contanos más</label>
-          <textarea placeholder="¿Desde dónde lo querés traer? ¿Cuántas unidades? Cuanto más detalle nos des, mejor podemos cotizarte."></textarea>
+          <textarea name="mensaje" placeholder="¿Desde dónde lo querés traer? ¿Cuántas unidades? Cuanto más detalle nos des, mejor podemos cotizarte."></textarea>
         </div>
-        <button class="form-submit">Enviar consulta →</button>
-      </div>
+        <button type="submit" class="form-submit">Enviar consulta →</button>
+      </form>
     </div>
   </section>
 
